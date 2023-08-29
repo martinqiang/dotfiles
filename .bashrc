@@ -115,3 +115,16 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Only use nvim :)
+alias vim='nvim'
+
+# For ROS (COMPSYS732 Course)
+source /opt/ros/noetic/setup.bash
+alias cw='cd ~/turtlebot2'
+alias cws='cd ~/turtlebot2/src'
+alias cm='cd ~/turtlebot2 && catkin_make && cd -'
+alias cm-delete='cd ~/turtlebot2 && rm -R devel && rm -R build && catkin_make  && cd -'
+source ~/turtlebot2/devel/setup.bash
+export TURTLEBOT_BASE=kobuki
+export TURTLEBOT_3D_SENSOR=astra
