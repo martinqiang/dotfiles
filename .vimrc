@@ -1,7 +1,7 @@
 " VIM configuration file
 " martin q
 
-call plug#begin()
+call plug#begin('.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
