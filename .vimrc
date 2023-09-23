@@ -39,8 +39,11 @@ set mouse=a
 " Update Time (ms), make fast!
 set updatetime=300
 
-" tab columns
+" tab columns only 4 characters
 set tabstop=4
+
+" tabs are spaces
+set expandtab
 
 " status line
 set laststatus=2
