@@ -56,6 +56,9 @@ highlight LineNr ctermfg=grey
 " Map :F to :Files
 command F Files
 
+" Map :E to :Explore
+command E Explore
+
 " netrw split open on right side
 let g:netrw_altv=1
 
