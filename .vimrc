@@ -7,6 +7,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'olimorris/onedarkpro.nvim'
+Plug 'wfxr/minimap.vim'
 call plug#end()
 
 " color scheme
@@ -64,6 +65,9 @@ let g:netrw_altv=1
 
 " Setting enter key for accepting autocomplete
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
+" Vim Minimap
+let g:minimap_auto_start=1
 
 " Special NVIM or VIM commands
 if has ('nvim')
