@@ -12,8 +12,11 @@
 	- In-terminal Markdown Viewer
 - GNOME-Terminal (`gnome-terminal`)
 	- Default Ubuntu Terminal App (GUI)
-- NeoFetch (`neofetch)
+- NeoFetch (`neofetch`)
 	- Shows cool system information
+- TMUX (`tmux`)
+    - TMUX Plugin Manager
+    - TMUX Resurrect and TMUX continuum
 
 ## Customising the Shell
 

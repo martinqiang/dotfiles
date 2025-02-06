@@ -18,3 +18,11 @@
 
 ### coc
 - Fast code-completion engine
+
+### NVM-LSPCONFIG
+- For configuration of LSP
+- Commands
+    - `:LspInfo`
+    - `:LspInstall` - Then choose the lsp to install
+    - `LspStart <config_name>`
+
