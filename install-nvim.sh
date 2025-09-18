@@ -15,4 +15,4 @@ curl -sL install-node.vercel.app/lts | sudo bash
 # Extra setup inside neovim
 echo "Run :PlugInstall to download plugin"
 echo "Run :F to download FZF executable"
-
+echo "Install code-minimap, e.g. yay -S code-minimap"
